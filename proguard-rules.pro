@@ -1,0 +1,10 @@
+-keep class kotlin.** { *; }
+-keep class kotlinx.** { *; }
+-keep class androidx.compose.** { *; }
+-keep class androidx.activity.** { *; }
+-keep class androidx.lifecycle.** { *; }
+-keep class androidx.core.content.FileProvider { *; }
+-keep class **.R$* { *; }
+-dontwarn org.jetbrains.annotations.**
+-dontwarn kotlin.**
+-dontwarn kotlinx.**
